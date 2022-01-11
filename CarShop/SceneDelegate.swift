@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  CarShop
 //
-//  Created by Meri Akiashvili on 09.01.22.
+//  Created by Meri Akiashvili on 03.01.22.
 //
 
 import UIKit

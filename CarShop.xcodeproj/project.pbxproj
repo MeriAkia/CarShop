@@ -13,6 +13,11 @@
 		A4441561278B6FE500DED270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A444155F278B6FE500DED270 /* Main.storyboard */; };
 		A4441563278B6FE600DED270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4441562278B6FE600DED270 /* Assets.xcassets */; };
 		A4441566278B6FE600DED270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4441564278B6FE600DED270 /* LaunchScreen.storyboard */; };
+		A4441573278CB96500DED270 /* CarListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4441572278CB96500DED270 /* CarListVC.swift */; };
+		A4441579278CC8FC00DED270 /* CarListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4441578278CC8FC00DED270 /* CarListTableViewCell.swift */; };
+		A444157D278CE9B900DED270 /* CarListFormater.swift in Sources */ = {isa = PBXBuildFile; fileRef = A444157C278CE9B900DED270 /* CarListFormater.swift */; };
+		A444157F278CF6C600DED270 /* CarShop in Resources */ = {isa = PBXBuildFile; fileRef = A444157E278CF6C600DED270 /* CarShop */; };
+		A444158D278CFE2500DED270 /* SelectedBrandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A444158C278CFE2500DED270 /* SelectedBrandVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		A4441562278B6FE600DED270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4441565278B6FE600DED270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4441567278B6FE600DED270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4441572278CB96500DED270 /* CarListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListVC.swift; sourceTree = "<group>"; };
+		A4441578278CC8FC00DED270 /* CarListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListTableViewCell.swift; sourceTree = "<group>"; };
+		A444157C278CE9B900DED270 /* CarListFormater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListFormater.swift; sourceTree = "<group>"; };
+		A444157E278CF6C600DED270 /* CarShop */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CarShop; sourceTree = "<group>"; };
+		A444158C278CFE2500DED270 /* SelectedBrandVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedBrandVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,7 @@
 		A444154D278B6FE500DED270 = {
 			isa = PBXGroup;
 			children = (
+				A444157E278CF6C600DED270 /* CarShop */,
 				A4441558278B6FE500DED270 /* CarShop */,
 				A4441557278B6FE500DED270 /* Products */,
 			);
@@ -58,13 +69,33 @@
 			children = (
 				A4441559278B6FE500DED270 /* AppDelegate.swift */,
 				A444155B278B6FE500DED270 /* SceneDelegate.swift */,
+				A4441587278CFD1800DED270 /* page3 */,
+				A4441582278CF8A200DED270 /* page2 */,
 				A444155D278B6FE500DED270 /* ViewController.swift */,
 				A444155F278B6FE500DED270 /* Main.storyboard */,
 				A4441562278B6FE600DED270 /* Assets.xcassets */,
 				A4441564278B6FE600DED270 /* LaunchScreen.storyboard */,
 				A4441567278B6FE600DED270 /* Info.plist */,
+				A444157C278CE9B900DED270 /* CarListFormater.swift */,
 			);
 			path = CarShop;
+			sourceTree = "<group>";
+		};
+		A4441582278CF8A200DED270 /* page2 */ = {
+			isa = PBXGroup;
+			children = (
+				A4441578278CC8FC00DED270 /* CarListTableViewCell.swift */,
+				A4441572278CB96500DED270 /* CarListVC.swift */,
+			);
+			path = page2;
+			sourceTree = "<group>";
+		};
+		A4441587278CFD1800DED270 /* page3 */ = {
+			isa = PBXGroup;
+			children = (
+				A444158C278CFE2500DED270 /* SelectedBrandVC.swift */,
+			);
+			path = page3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +159,7 @@
 				A4441566278B6FE600DED270 /* LaunchScreen.storyboard in Resources */,
 				A4441563278B6FE600DED270 /* Assets.xcassets in Resources */,
 				A4441561278B6FE500DED270 /* Main.storyboard in Resources */,
+				A444157F278CF6C600DED270 /* CarShop in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +171,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A444155E278B6FE500DED270 /* ViewController.swift in Sources */,
+				A4441573278CB96500DED270 /* CarListVC.swift in Sources */,
+				A444157D278CE9B900DED270 /* CarListFormater.swift in Sources */,
 				A444155A278B6FE500DED270 /* AppDelegate.swift in Sources */,
+				A444158D278CFE2500DED270 /* SelectedBrandVC.swift in Sources */,
+				A4441579278CC8FC00DED270 /* CarListTableViewCell.swift in Sources */,
 				A444155C278B6FE500DED270 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +370,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
